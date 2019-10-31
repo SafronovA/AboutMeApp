@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">LS</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Experiment with adding an ImageView above the TextView inside the ScrollView.
+        \n\nWhen you run the app, this image, unlike the star, will scroll out of view as the text scrolls up.
+        \n\nHint: You will need to wrap the two scrollable views into a LinearLayout inside the ScrollView. ScrollView > LinerLayout > ImageView + TextView
+        \n\nBelow is a skeleton code version for this challenge.
+        \n\nThe important thing to remember is that since ScrollView can only have one child, you have to wrap that ImageView and the TextView into a LinearLayout.
+        \n\nThere is no solution code provided for this challenge, but the skeleton code below gives you the expected view hierarchy to use.
+        \n\nWhen you run the app, this image, unlike the star, will scroll out of view as the text scrolls up.
+        \n\nHint: You will need to wrap the two scrollable views into a LinearLayout inside the ScrollView. ScrollView > LinerLayout > ImageView + TextView
+        \n\nBelow is a skeleton code version for this challenge.
+        \n\nThe important thing to remember is that since ScrollView can only have one child, you have to wrap that ImageView and the TextView into a LinearLayout.
+        \n\nThere is no solution code provided for this challenge, but the skeleton code below gives you the expected view hierarchy to use.\n\n</string>
+    <string name="whan_is_your_nick">What\'s your NickName?</string>
+</resources>
