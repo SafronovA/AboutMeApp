@@ -11,7 +11,7 @@ import com.example.aboutme.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val myName: MyName = MyName("Alex Sarf")
+    private val myName: MyName = MyName(name = "Alex Sarf")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
 
         // After binding
         binding.apply {
-            binding.nicknameText.text = binding.nicknameEdit.text
-            binding.myName.nickname = nicknameEdit.text.toString()
+            nicknameText.text = nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             invalidateAll()
-            binding.nicknameEdit.visibility = View.GONE
-            binding.doneButton.visibility = View.GONE
-            binding.nicknameText.visibility = View.VISIBLE
+            nicknameEdit.visibility = View.GONE
+            doneButton.visibility = View.GONE
+            nicknameText.visibility = View.VISIBLE
         }
 
         // Before binding
